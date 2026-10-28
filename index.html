@@ -1,25 +1,25 @@
 <!doctype html>
 <html lang="zh-CN">
   <head>
+  <script>
+    (function(){
+      var redirect = sessionStorage.getItem("__spa_redirect__");
+      if (redirect) {
+        sessionStorage.removeItem("__spa_redirect__");
+        window.history.replaceState(null, "", redirect);
+      }
+    })();
+  </script>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="manifest" href="/manifest.json" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover, interactive-widget=resizes-content" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta name="apple-mobile-web-app-title" content="轻酒馆" />
     <meta name="theme-color" content="#07c160" />
     <title>轻酒馆</title>
-    <script>
-      (function () {
-        var r = sessionStorage.getItem('__spa_redirect__');
-        if (r) {
-          sessionStorage.removeItem('__spa_redirect__');
-          history.replaceState(null, '', r);
-        }
-      })();
-    </script>
-    <script type="module" crossorigin src="/assets/index-B3DQg9XK.js"></script>
+    <script type="module" crossorigin src="/assets/index-BptRkPz_.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-DN6eqMuD.css">
   </head>
   <body>
